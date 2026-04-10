@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 📌 Assignment 14 – Component Library Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 👨‍💻 Author
 
-## Available Scripts
+Preet Kachhia
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📖 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a **fully containerized multi-page portfolio website** built using **React (Create React App)**. It demonstrates modern web development practices including:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Component-based architecture
+- Multi-page routing with React Router
+- Code quality tools (ESLint + Prettier)
+- Pre-commit validation using Husky
+- CI/CD pipeline using GitHub Actions
+- Docker containerization for production deployment
 
-### `npm test`
+The application showcases personal information, academic work, technical skills, resources, and developer setup.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🌐 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The portfolio website includes the following sections:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🏠 Basic Information
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Personal introduction
+- Name and background
+- Interests (e.g., chess, music, movies, travel, spirituality)
 
-### `npm run eject`
+### 💼 Work Section
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Project showcase
+- Example project: Green Leaf CMS
+- Project descriptions and technologies used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🧠 Skills Section
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Programming languages (JavaScript, React, etc.)
+- Frameworks and libraries
+- Development tools (Git, Docker, VS Code)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📚 Resources Section
 
-## Learn More
+- Learning resources and documentation links
+- React official documentation and references
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ⚙️ Developer Setup Section
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- VS Code configuration
+- Terminal setup
+- Preferred fonts and extensions
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠 Tech Stack
 
-### Analyzing the Bundle Size
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- React.js (Create React App)
+- React Router DOM
+- HTML5 / CSS3
 
-### Making a Progressive Web App
+### Dev Tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- ESLint (code linting)
+- Prettier (code formatting)
+- Husky (pre-commit hooks)
 
-### Advanced Configuration
+### DevOps / Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Docker (containerization)
+- GitHub Actions (CI/CD pipeline)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🐳 Docker Configuration
 
-### `npm run build` fails to minify
+This project is fully containerized using Docker for production deployment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📦 Container Name
